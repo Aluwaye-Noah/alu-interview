@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """
 method that calculates the fewest opperations to get the result in exactly n H chara in a file
+
 """
 
 
 def minOperations(n):
     """
     min operations method
+
     """
     if n <= 1:
         return 0
